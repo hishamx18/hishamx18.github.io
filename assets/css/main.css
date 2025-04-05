@@ -1687,9 +1687,9 @@ input, select, textarea {
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
 		background-color: #43B3E0;
-		padding: 1em 2.35em 1em 2.35em;
-		font-size: 1.1em;
-		max-width: 24em;
+		padding: 12px 24px;
+		font-size: 16px;
+		max-width: none;
 	}
 
 		input[type="button"]:hover,
@@ -1710,23 +1710,6 @@ input, select, textarea {
 			top: 1px;
 		}
 
-		input[type="button"].large,
-		input[type="submit"].large,
-		input[type="reset"].large,
-		button.large,
-		.button.large {
-			font-size: 1.5em;
-			letter-spacing: -0.025em;
-		}
-
-		input[type="button"].alt,
-		input[type="submit"].alt,
-		input[type="reset"].alt,
-		button.alt,
-		.button.alt {
-			background-color: #444;
-			box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
-		}
 
 			input[type="button"].alt:hover,
 			input[type="submit"].alt:hover,
@@ -2300,15 +2283,6 @@ input, select, textarea {
 				width: 100%;
 				padding: 1em 0 1em 0;
 			}
-
-				input[type="button"].large,
-				input[type="submit"].large,
-				input[type="reset"].large,
-				button.large,
-				.button.large {
-					font-size: 1.2em;
-					letter-spacing: 0;
-				}
 
 		/* Social */
 
