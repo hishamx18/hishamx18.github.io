@@ -221,8 +221,15 @@ input, select, textarea {
 			font-size: 1.25em;
 		}
 
+		
 /* Container */
 
+.container1 {
+	margin: 0 auto;
+	max-width: calc(100% - 50px);
+	width: 1200px;
+	text-align: justify;
+}	
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 50px);
@@ -1727,7 +1734,28 @@ input, select, textarea {
 			.button.alt:active {
 				background-color: #3f3f3f;
 			}
-
+	
+			.customButton { 
+				text-decoration: none;
+				border:2px ridge #fffafa;
+				border-radius:5px;
+				padding:10px;
+				margin:10px;
+				background-color:#000000;
+				color:#ff0000;
+				font-weight:800;
+				opacity:1;
+				transition:1s;
+				} 
+				.customButton:hover {
+				cursor:pointer;
+				background-color:#f9f9f900;
+				opacity:0.5;
+				transition:1s;
+				color:#000000;
+				} 
+			
+				
 /* List */
 
 	ul {
@@ -1787,10 +1815,10 @@ input, select, textarea {
 					-webkit-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
 					transition: background-color .2s ease-in-out;
-					background-color: #444;
+					background-color: #000000;
 					border-radius: 6px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
-					color: #2E2E2E !important;
+					color: #ff0000 !important;
 					display: block;
 					font-size: 26px;
 					height: 48px;
@@ -2416,4 +2444,9 @@ input, select, textarea {
 						margin-top: 0;
 					}
 
+
+					.justify-align {
+						text-align: justify;
+					  }
 	}
+
